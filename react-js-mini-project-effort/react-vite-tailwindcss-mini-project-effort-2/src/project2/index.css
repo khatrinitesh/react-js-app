@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+@font-face {
+    font-family: "Custom-1";
+    src: url("../../public/assets/fonts/poppinsregular.ttf");
+  }
+  
+
+.bg-sky-500 {
+    background-color: #0ea5e9;
+}
+.hover\:bg-sky-700:hover {
+background-color: #0369a1;
+}
+
+.from-purple-600 {
+    background-color: #ED3724;
+}
+.to-blue-600{
+    background-color: #F7BD00;
+}

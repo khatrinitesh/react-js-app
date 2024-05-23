@@ -1,0 +1,15 @@
+.text-button {
+    padding: 10px;
+    background-color: transparent;
+    color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .text-button:hover {
+    color: #2980b9;
+  }
+  

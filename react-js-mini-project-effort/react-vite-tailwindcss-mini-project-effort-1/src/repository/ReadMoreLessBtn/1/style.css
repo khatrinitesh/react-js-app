@@ -1,0 +1,13 @@
+.read-more-button {
+    background-color: transparent;
+    color: #3498db;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .read-more-button:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,26 @@
+/* PricingPlan.css */
+.pricing-plan {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.price {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.features {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subscribe-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

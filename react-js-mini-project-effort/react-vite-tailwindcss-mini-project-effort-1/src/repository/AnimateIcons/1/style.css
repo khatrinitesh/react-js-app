@@ -1,0 +1,13 @@
+.icon-container {
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-container:hover {
+    transform: scale(1.2);
+    /* Adjust the scale factor for the desired zoom effect */
+}
+
+.icon-container.hovered {
+    transform: rotate(360deg);
+    /* Adjust the rotation angle for the desired spin effect */
+}

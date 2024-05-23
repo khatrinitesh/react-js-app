@@ -1,0 +1,31 @@
+/* CurtainMenu.css */
+
+.curtain-menu-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.menu-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.curtain-menu {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Initial position off-screen */
+  width: 300px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: left 0.3s ease-in-out;
+}
+
+.menu-open .curtain-menu {
+  left: 0;
+}

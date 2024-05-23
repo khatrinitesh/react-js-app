@@ -1,0 +1,23 @@
+.slick-list {
+  padding: 100px 50px;
+}
+
+.slick-track {
+  padding: 100px 0;
+}
+
+.slick-center {
+  background-color: red;
+  transform: scale(1.5);
+}
+
+.slick-slide {
+  border: 1px solid #000;
+  background-color: orange !important;
+  text-align: center;
+}
+
+.slick-arrow {
+  background-color: black !important;
+  opacity: 1 !important;
+}

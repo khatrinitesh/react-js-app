@@ -1,0 +1,62 @@
+:root {
+    --blackcolor: #000;
+    --whitecolor: #fff;
+    --lightgray: #f5f9f9;
+}
+
+header{
+    background-color: var(--blackcolor);
+}
+
+header ul li a {
+    color: var(--whitecolor);
+    display: block;
+    padding: 10px;
+}
+
+header ul li a.active {
+    background-color: red;
+}
+
+.mainContent {
+    min-height: calc(100vh - 88px);
+    width: 100%;
+    background-color: var(--lightgray);
+
+}
+
+footer {
+    background-color: var(--blackcolor);
+    color: var(--whitecolor);
+    padding: 10px;
+}
+
+.error-container {
+    text-align: center;
+}
+
+.error-code {
+    font-size: 10rem;
+    color: #e74c3c;
+    margin: 0;
+}
+
+.error-message {
+    font-size: 2rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.back-to-home {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-home:hover {
+    background-color: #bdc3c7;
+}

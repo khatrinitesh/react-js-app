@@ -1,0 +1,23 @@
+.slick-prev{
+    left:0;
+}
+.slick-next{
+    right:0;
+}
+
+.slick-track{
+    display: flex;
+}
+
+.slick-arrow{
+    background-color: red !important;
+    z-index: 999;
+}
+
+.slick-slide{
+    padding: 0 5px;
+}
+
+.item{
+    background-color: teal;
+}

@@ -1,0 +1,26 @@
+header{
+    transition:all .3s linear;
+    -moz-transition:all .3s linear;
+    -ms-transition:all .3s linear;
+    -webkit-transition:all .3s linear;
+    background-color: #fff;
+}
+header ul li a{
+    color:#000;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    font-weight:600;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px #ccc;
+    -moz-box-shadow: 5px 5px 5px #ccc;
+    -ms-box-shadow: 5px 5px 5px #ccc;
+    padding:20px;
+}

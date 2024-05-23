@@ -1,0 +1,16 @@
+.zoom-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .zoom-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .zoomed {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+  }
+  

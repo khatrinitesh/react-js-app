@@ -1,0 +1,11 @@
+/* styles.css */
+.no-select {
+    user-select: none;
+  }
+  
+  ::selection{
+    background-color: red;
+  }
+  ::-webkit-selection{
+    background-color: red;
+  }

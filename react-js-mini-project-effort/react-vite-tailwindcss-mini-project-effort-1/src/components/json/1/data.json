@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "icon": "icon1.png",
+      "title": "Item 1",
+      "description": "Description for Item 1"
+    },
+    {
+      "id": 2,
+      "icon": "icon2.png",
+      "title": "Item 2",
+      "description": "Description for Item 2"
+    },
+    {
+      "id": 3,
+      "icon": "icon3.png",
+      "title": "Item 3",
+      "description": "Description for Item 3"
+    }
+  ]

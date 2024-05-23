@@ -1,0 +1,28 @@
+/* BlurOverlay.css */
+
+.blur-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.webcam-avatar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  webkitmaskimage: url("your-mask-image.png");
+  webkitmasksize: cover;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  maskimage: url("your-mask-image.png");
+  masksize: cover;
+  zindex: 1; /* Display on top of the blurred background */
+}

@@ -1,0 +1,47 @@
+#root{
+    overflow-x: hidden;
+}
+
+ul,ol,h1,h2,h3,h4,h5,h6,p{
+    margin:0 !important;
+}
+
+header{
+    background-color: #222;
+    ul{
+        li{
+            a{
+                color:#fff;
+                text-decoration: none;
+                &.active{
+                    background-color: red;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #333;
+    color:#fff;
+    padding:10px;
+}
+
+.left_sidebar{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 200px;
+    background: #f9f9f9;
+    height: 100%;
+    transition: all .4s linear;
+}
+
+.left_sidebar.open{
+    left:0;
+}
+
+.main_content{
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}

@@ -1,0 +1,30 @@
+:root {
+    --blackcolor: #000;
+    --whitecolor: #fff;
+    --lightgray: #f5f9f9;
+}
+
+header ul li a {
+    color: var(--whitecolor);
+    display: block;
+    padding: 10px;
+}
+
+header ul li a.active {
+    background-color: red;
+}
+
+.mainContent {
+    display: flex;
+    flex-grow: 1;
+    min-height: calc(100vh - 88px);
+    width: 100%;
+    background-color: var(--lightgray);
+
+}
+
+footer {
+    background-color: var(--blackcolor);
+    color: var(--whitecolor);
+    padding: 10px;
+}

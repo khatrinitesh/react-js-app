@@ -1,0 +1,20 @@
+.loading-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+  
+.loading-button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+.loading-button:hover {
+background-color: #2980b9;
+}
+  

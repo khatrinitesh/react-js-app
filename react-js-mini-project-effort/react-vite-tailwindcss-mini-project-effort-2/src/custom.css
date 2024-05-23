@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
+
+/* BELOW CODE FOR TAILWIND STYLESHEET */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* BELOW CODE FOR CUSTOM STYLESHEET */
+:root {
+  --ffPoppins: "Poppins", sans-serif;
+}
+body {
+  background-color: #f9f9f9;
+  /* font-family: var(--ffPoppins); */
+}
+
+.textDec {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  color: #fff;
+}
+.parentContent {
+  height: 200px;
+  background-color: powderblue;
+}
+
+:root {
+  --primaryColor: orange;
+  --secondaryColor: yellow;
+}
+
+header {
+  background-color: var(--primaryColor);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.customBox {
+  @apply px-4 py-2 font-bold rounded  mt-[10px] mb-[20px] mr-[2px] bg-[orange] rounded-[5px];
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: optional;
+    src: url(/fonts/inter-var-latin.woff2) format("woff2");
+  }
+}

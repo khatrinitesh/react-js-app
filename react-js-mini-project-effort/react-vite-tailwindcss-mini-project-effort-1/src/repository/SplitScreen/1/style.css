@@ -1,0 +1,13 @@
+.split-screen-container {
+    display: flex;
+    height: 100vh;
+    /* Adjust the height as needed */
+}
+
+.split-screen-half {
+    flex: 1;
+    padding: 16px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: auto;
+}

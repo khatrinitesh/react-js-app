@@ -1,0 +1,11 @@
+.scroll-drawing-container {
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  canvas {
+    border: 1px solid #ccc;
+    cursor: crosshair;
+  }
+  

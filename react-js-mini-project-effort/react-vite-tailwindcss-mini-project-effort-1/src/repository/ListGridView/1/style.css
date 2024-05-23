@@ -1,0 +1,43 @@
+/* Grid.css */
+
+.grid-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .grid-controls {
+    display: flex;
+    margin-bottom: 16px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  .button {
+    padding: 8px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .grid-item {
+    border: 1px solid #ddd;
+    padding: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .grid-item:hover {
+    background-color: #f9f9f9;
+  }
+  

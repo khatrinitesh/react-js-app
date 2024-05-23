@@ -1,0 +1,12 @@
+.sidebar{
+    position: fixed;
+    top:0;
+    left:-100%;
+    width: 200px;
+    height: 100%;
+    background-color: darkblue;
+    transition: all .3s linear;
+}
+.sidebar.sidebarOpen{
+    left: 0;
+}

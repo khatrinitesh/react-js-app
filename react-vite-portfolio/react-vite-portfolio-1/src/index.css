@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway.eot');
+    src: url('../src/assets/fonts/Raleway.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/Raleway.woff2') format('woff2'),
+        url('../src/assets/fonts/Raleway.woff') format('woff'),
+        url('../src/assets/fonts/Raleway.ttf') format('truetype'),
+        url('../src/assets/fonts/Raleway.svg#Raleway') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'RalewayL';
+    src: url('../src/assets/fonts/Raleway-Light.eot');
+    src: url('../src/assets/fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/Raleway-Light.woff2') format('woff2'),
+        url('../src/assets/fonts/Raleway-Light.woff') format('woff'),
+        url('../src/assets/fonts/Raleway-Light.ttf') format('truetype'),
+        url('../src/assets/fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RalewayB';
+    src: url('../src/assets/fonts/Raleway-Bold.eot');
+    src: url('../src/assets/fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/Raleway-Bold.woff2') format('woff2'),
+        url('../src/assets/fonts/Raleway-Bold.woff') format('woff'),
+        url('../src/assets/fonts/Raleway-Bold.ttf') format('truetype'),
+        url('../src/assets/fonts/Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RalewayXL';
+    src: url('../src/assets/fonts/Raleway-ExtraLight.eot');
+    src: url('../src/assets/fonts/Raleway-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/Raleway-ExtraLight.woff2') format('woff2'),
+        url('../src/assets/fonts/Raleway-ExtraLight.woff') format('woff'),
+        url('../src/assets/fonts/Raleway-ExtraLight.ttf') format('truetype'),
+        url('../src/assets/fonts/Raleway-ExtraLight.svg#Raleway-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RalewayH';
+    src: url('../src/assets/fonts/Raleway-Heavy.eot');
+    src: url('../src/assets/fonts/Raleway-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/Raleway-Heavy.woff2') format('woff2'),
+        url('../src/assets/fonts/Raleway-Heavy.woff') format('woff'),
+        url('../src/assets/fonts/Raleway-Heavy.ttf') format('truetype'),
+        url('../src/assets/fonts/Raleway-Heavy.svg#Raleway-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RalewayXB';
+    src: url('../src/assets/fonts/Raleway-ExtraBold.eot');
+    src: url('../src/assets/fonts/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/Raleway-ExtraBold.woff2') format('woff2'),
+        url('../src/assets/fonts/Raleway-ExtraBold.woff') format('woff'),
+        url('../src/assets/fonts/Raleway-ExtraBold.ttf') format('truetype'),
+        url('../src/assets/fonts/Raleway-ExtraBold.svg#Raleway-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RalewayM';
+    src: url('../src/assets/fonts/Raleway-Medium.eot');
+    src: url('../src/assets/fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/Raleway-Medium.woff2') format('woff2'),
+        url('../src/assets/fonts/Raleway-Medium.woff') format('woff'),
+        url('../src/assets/fonts/Raleway-Medium.ttf') format('truetype'),
+        url('../src/assets/fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RalewayT';
+    src: url('../src/assets/fonts/Raleway-Thin.eot');
+    src: url('../src/assets/fonts/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/Raleway-Thin.woff2') format('woff2'),
+        url('../src/assets/fonts/Raleway-Thin.woff') format('woff'),
+        url('../src/assets/fonts/Raleway-Thin.ttf') format('truetype'),
+        url('../src/assets/fonts/Raleway-Thin.svg#Raleway-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RalewaySB';
+    src: url('../src/assets/fonts/Raleway-SemiBold.eot');
+    src: url('../src/assets/fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/Raleway-SemiBold.woff2') format('woff2'),
+        url('../src/assets/fonts/Raleway-SemiBold.woff') format('woff'),
+        url('../src/assets/fonts/Raleway-SemiBold.ttf') format('truetype'),
+        url('../src/assets/fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../src/assets/fonts/OpenSans.eot');
+    src: url('../src/assets/fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/OpenSans.woff2') format('woff2'),
+        url('../src/assets/fonts/OpenSans.woff') format('woff'),
+        url('../src/assets/fonts/OpenSans.ttf') format('truetype'),
+        url('../src/assets/fonts/OpenSans.svg#OpenSans') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../src/assets/fonts/OpenSans-Bold.eot');
+    src: url('../src/assets/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../src/assets/fonts/OpenSans-Bold.woff') format('woff'),
+        url('../src/assets/fonts/OpenSans-Bold.ttf') format('truetype'),
+        url('../src/assets/fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'OpenSansSemiBold';
+    src: url('../src/assets/fonts/OpenSans-Semibold.eot');
+    src: url('../src/assets/fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/OpenSans-Semibold.woff2') format('woff2'),
+        url('../src/assets/fonts/OpenSans-Semibold.woff') format('woff'),
+        url('../src/assets/fonts/OpenSans-Semibold.ttf') format('truetype'),
+        url('../src/assets/fonts/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    /* font size */
+    --fontBase:2vh;
+    --font1: 0.11vh;
+    --font2: 0.21vh;
+    --font4: 0.42vh;
+    --font8: 0.85vh;
+    --font10: 1.06vh;
+    --font12: 1.27vh;
+    --font14: 1.48vh;
+    --font16: 1.69vh;
+    --font18: 1.90vh;
+    --font20: 2.11vh;
+    --font22: 2.32vh;
+    --font24: 2.54vh;
+    --font26: 2.75vh;
+    --font28: 2.97vh;
+    --font30: 3.17vh;
+    --font32: 3.39vh;
+    --font34: 3.60vh;
+    --font36: 3.81vh;
+    --font38: 4.02vh;
+    --font40: 4.23vh;
+    --font42: 4.44vh;
+    --font44: 4.66vh;
+    --font46: 4.87vh;
+    --font48: 5.08vh;
+    --font50: 5.29vh;
+
+    /* font family */
+    --raleway:'Raleway';
+    --ralewayL:'RalewayL';
+    --ralewayB:'RalewayB';
+    --ralewayXL:'RalewayXL';
+    --ralewayH:'RalewayH';
+    --ralewayXB:'RalewayXB';
+    --ralewayM:'RalewayM';
+    --ralewayT:'RalewayT';
+    --ralewaySB:'RalewaySB'
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.btnHamburger.active .line:nth-child(1){
+    transform: translateY(12px) rotate(-45deg);
+    transform-origin: 9px 0px;
+}
+.btnHamburger.active .line:nth-child(2){
+    opacity: 0;
+}
+.btnHamburger.active .line:nth-child(3){
+    transform: translateY(-12px) rotate(45deg);
+    transform-origin: 8px 2px;
+}

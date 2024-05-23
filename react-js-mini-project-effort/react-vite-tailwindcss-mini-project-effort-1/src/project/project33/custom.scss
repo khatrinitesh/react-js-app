@@ -1,0 +1,26 @@
+header{
+    background-color:#333;
+   ul{
+    display: flex;
+    li{
+        a{
+            color:#fff;
+            display: block;
+            padding: 10px;
+            &.active{
+                background-color: red;
+            }
+        }
+    }
+   }
+}
+
+.mainContent{
+    padding: 50px 20px;
+    min-height:calc(100vh - 68px);
+}
+
+footer{
+    background-color: #333;
+    color:#fff;
+}

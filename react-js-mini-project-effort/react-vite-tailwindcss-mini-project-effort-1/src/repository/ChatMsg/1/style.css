@@ -1,0 +1,31 @@
+.message {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+
+.sender {
+    background-color: #4caf50;
+    color: white;
+    align-self: flex-end;
+}
+
+.receiver {
+    background-color: #ddd;
+    color: #333;
+    align-self: flex-start;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow-y: auto;
+    height: 300px;
+    /* Adjust the height as needed */
+}

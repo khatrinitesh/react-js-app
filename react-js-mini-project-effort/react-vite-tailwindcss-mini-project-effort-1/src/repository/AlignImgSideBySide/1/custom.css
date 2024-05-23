@@ -1,0 +1,8 @@
+.image-container {
+    text-align: center; /* Optional: Center the images */
+  }
+
+  .image-container img {
+    display: inline-block;
+    margin: 10px; /* Optional: Add spacing between images */
+  }

@@ -1,0 +1,26 @@
+.contact-chips {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact-chip {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .contact-chip span {
+    margin-right: 8px;
+  }
+  
+  .contact-chip button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #d9534f; /* Bootstrap's danger color */
+  }
+  

@@ -1,0 +1,221 @@
+d - done 
+p - pending 
+
+
+🌲 Why choose React? What sets it apart from other libraries and frameworks? - d
+🌲 Understanding the Virtual DOM and its benefits in React - d
+🌲 Exploring JSX and its advantages in React development - d
+🌲 The concept of Reconciliation and its significance in React rendering - d
+🌲 Understanding the differences between State and Props in React - d
+🌲 Dive into Hooks-related questions, such as useState and useEffect - d
+🌲 Exploring the differences between useMemo and useCallback in React - d
+🌲 Understanding Code Splitting and its role in optimizing React applications - d
+🌲 The importance of Accessibility considerations in React development - d
+🌲 Unidirectional behavior in React and its impact on application architecture - d
+🌲 Comparing Pure Components and Higher Order Components (HOC) in React - d
+🌲 Addressing security concerns such as CSRF and XSRF in React applications - d
+🌲 The various use cases of useEffect in different scenarios - d
+🌲 Deepening your understanding of React optimization techniques- d
+🌲 Exploring Lazy Loading and its benefits in React applications - d
+🌲 Comparing Class-based and Functional-based components in React - d
+🌲 Understanding SEO considerations and best practices in React applications - d
+🌲 React Router and its role in handling client-side routing in React applications- d
+🌲 Context API and how it facilitates state management in React without using Redux- d
+🌲 Server-Side Rendering (SSR) and its benefits for performance and SEO in React applications- d
+🌲 Error Handling and Error Boundaries in React to gracefully handle runtime errors- d
+🌲 Testing React components using tools like Jest and React Testing Library - d
+🌲 Form handling and validation techniques in React applications - d
+🌲 Performance optimizations using memoization and shouldComponentUpdate - d
+🌲 Handling asynchronous operations with async/await and Promises in React - d
+🌲 Using React with popular UI libraries or frameworks like Material-UI or Bootstrap - d
+🌲 React patterns and best practices for maintainable and scalable code - d
+----------------------------------------------------------------------
+Unveiling the Battle of Sharing in React: Context API vs. Prop Drilling ⚔️
+Prop Drilling:
+🔍 Navigate the never-ending staircase of passing props down, down, down...
+🏗️ Code bloat & maintenance headaches, the relentless foes of developers.
+Context API:
+🌐 Globally share data with elegance & simplicity
+✨ Components access values effortlessly, entering the realm of clean code bliss.
+----------------------------------------------------------------------
+I've compiled all React interview questions posted so far in this post, and I'll continue to add future questions as they are posted.
+Note: You can find the post in the 'Featured' column when you visit my profile, providing easy access to all interview questions.
+1 :Why we need React? - d
+2 :what is virtual DOM and why it's become an important factor in application development? -d
+3 : What is JSX in React? - d
+4 : Data flow in React? - d
+5: what are the ways to pass data from parent component to child component? -d 
+6 : Do you use class components or functional components? - d
+7: useState? - d 
+8: useEffect? - d 
+9: is it possible to send the entire state via props? - d
+10 : contextApi? - d
+11: Why max- depth loop occurs in react ? How to resolve them ? - d
+12: How do you optimize your react app? - d
+----------------------------------------------------------------------
+What is prop drilling in React?
+🔹 It refers to the process of passing data down the component tree through multiple layers of nested components. - d
+🔹 It occurs when a piece of data needs to be passed from a higher-level parent component to a lower-level child component that is not directly connected by parent-child relationships. - d
+🔹 It is also called "lifting state up" or "threading props" - d
+🔹 But, while doing so, other components have access to the data or props as we are passing it down the chain. - d 
+🔹 This would result in unnecessary exchange of data to the component which don't really need it. - d 
+🔹 To avoid this we can use possible solutions like React context API, Redux etc. - d
+----------------------------------------------------------------------
+Must learn concepts before giving a react interview :
+Life cycle methods of components:
+=======================
+3 phases and their methods
+Hooks:
+========
+useState - d 
+useEffect - d 
+useContext - d 
+useReducer - d 
+useMemo - d 
+useCallback - d  
+useRef - d 
+Virtual dom:
+=========
+Reconciliation - d 
+Diffing algorithm - d
+Render - d 
+SSR and CSR - p
+============
+Difference and benifit, SEO, Performance
+Higher Order components:
+===================
+What is hoc, Why we use , When we use, How we use them ?
+State management
+=============
+State
+Props
+Props driling
+Context api
+Redux and toolkit
+CustomHooks
+==========
+When to use them and example code.
+LazyLoading:
+=========
+code splitting
+Suspense
+chunking
+Routing 
+================
+react-router
+protected routes
+query params
+Dynamic routing
+Role based access control
+Testing:
+==================
+unit testing - Jest
+Async tasks
+==================
+Api calls
+fetch, axios
+events - scrolling 
+Reusability, Modularity, Testability and Readability
+Performance:
+============
+lazyloading
+optimize assets,js,css
+Bundlers
+How to make rendering components fast and optimized?
+Styling:
+===============
+Bootstrap,Material Ui 
+Css,scss,inline styling
+//----------------------------------------------------------------------
+What is a react router used for in a react application?
+Answer: Managing client-side routing
+//----------------------------------------------------------------------
+Interviewer: What's the useId hook in Reactjs. How is it different from key ?
+My answer would be...
+Ø useId() is one of the latest hooks added to React 18. 
+Ø The useId() hook provides a way to generate unique IDs that persist between re-renders. 
+Ø It ensures that generated IDs i.e, returns a string are unique across the entire React app, and until the component that uses the ID is removed from the DOM. Once the component is re-insterted, the generated ID will be different.
+Ø The main purpose of the useId() hook is to generate unique IDs for HTML form elements. It simplifies the process of generating unique IDs when creating form inputs and labels in React.
+Ø The useId() hook doesn’t take any parameters.
+Ø Don’t use useId hook to generate keys. It’s main purpose is to generate unique ids for Form element’s id attribute.
+If you find my explanation effective, give it a like, and share any observations or suggestions in the comments.
+//----------------------------------------------------------------------
+don't set directly, first check what data u are getting
+//----------------------------------------------------------------------
+Introduction
+What is React
+Setting Up the Development Environment
+Your First React App
+Hello World
+Components
+Setting Up the Project
+Your First React Component
+Specifying Children
+Embedding Expressions
+Setting Attributes
+Rendering Classes Dynamically
+Rendering Lists
+Conditional Rendering
+Handling Events
+Binding Event Handlers
+Updating the State
+What Happens When State Changes
+Passing Event Arguments
+Composing Components
+Passing Data to Components
+Passing Children
+Debugging React Apps
+Props vs State
+Raising and Handling Events
+Updating the State
+Single Source of Truth
+Removing the Local State
+Multiple Components in Sync
+Lifting the State Up
+Stateless Functional Components
+Destructuring Arguments
+Lifecycle Hooks
+Mounting Phase
+Updating Phase
+Unmounting Phase
+//----------------------------------------------------------------------
+Here are top 15 React Machine Coding Interview questions to ace your next frontend interview - 
+1. Implement a Todo List: Create a simple todo list application where users can add, edit, and delete tasks.
+2. Build a Weather App: Develop a weather application that fetches weather data from an API and displays it to the user.
+3. Create a Pagination Component: Design a pagination component that handles navigation between pages of data.
+4. Implement a Login Form: Build a login form with validation for email and password fields.
+5. Build a Countdown Timer: Develop a countdown timer component that starts from a specified time and decrements until it reaches zero.
+6. Create a Modal Component: Design a modal component that can be toggled open and closed.
+7. Implement Drag and Drop: Develop a feature that allows users to drag and drop items within a list.
+8. Build a Chat Application: Develop a real-time chat application using WebSockets or a library like Socket.io.
+9. Create a Dropdown Component: Design a dropdown component with options that can be selected by the user.
+10. Implement Form Validation: Develop a form with validation for various fields such as email, password, and phone number.
+11. Build a Carousel Component: Design a carousel component that displays a slideshow of images or content.
+12. Create a Responsive Layout: Develop a responsive layout that adjusts based on the screen size and orientation.
+13. Implement Redux Store: Set up a Redux store and integrate it with a React application to manage state.
+14. Build an Infinite Scroll Component: Develop a component that loads more data as the user scrolls down the page.
+15. Create a Quiz Application: Develop a quiz application where users can answer multiple-choice questions and see their score at the end.
+//----------------------------------------------------------------------
+I'm re-sharing this carefully curated series of FREE courses aimed at professionals eager to build foundational to advanced skills in APIs. 
+This sequence is ideal for developers, software engineers, data engineers, product managers, and technical program managers. 
+Let's elevate our understanding of APIs step-by-step:
+✅API Fundamentals - lnkd.in/e8eMet_k
+✅API Simplified - lnkd.in/er9JiGxw
+✅API Methods - lnkd.in/ey9v7-hU
+✅API Terminologies - lnkd.in/eRsPMzpd
+✅API Authentication - lnkd.in/eNPfpAdE
+✅API Status Codes - lnkd.in/egXizUrS
+✅REST API vs GraphQL - lnkd.in/eZHREdgC
+✅API Integration - lnkd.in/eDASPP5m
+✅API Integration in Detail - lnkd.in/eZwFVrH7
+✅API Testing - lnkd.in/emgmWJqH
+✅API with Python - lnkd.in/eM23ah2y
+✅API Scaling - lnkd.in/e3mZSvmn
+✅Developing Robust APIs - lnkd.in/eBXzbFyg
+✅APIs with Postman - lnkd.in/ezue3d4B
+✅Testing APIs with Postman - lnkd.in/eCPnGTGi
+✅API Security - lnkd.in/e79ZYfPa
+✅APIs for Everyone - lnkd.in/e4WGDffA
+I encourage you to take advantage of these resources to sharpen your API skills and advance your career.
+Follow me here for more resources like this - Brij kishore Pandey 
+//----------------------------------------------------------------------

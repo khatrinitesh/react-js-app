@@ -1,0 +1,103 @@
+/* src/components/TopNav.css */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.nav-toggle {
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 3px 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Media Query for Responsive Navigation */
+
+
+.icon-bar {
+    background-color: #333;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .icon-bar a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #555;
+  }
+
+  .menu-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+  }
+  
+
+  .left-sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    /* Add other styles as needed */
+  }
+  /* src/components/TopBar.css */
+.top-bar {
+  height: 60px;
+  background-color: #333;
+  color: white;
+  /* Add other styles as needed */
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  color: white;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: #555;
+}
+
+.nav-item > span {
+  margin-left: 10px;
+}

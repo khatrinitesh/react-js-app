@@ -1,0 +1,29 @@
+.sidebar.sidebar-close{
+    right:-100%;
+}
+
+.sidebar.sidebar-open{
+    right:0%;
+}
+
+.sidebar{
+    display: block;
+    position: fixed;
+    top:0;
+    width: 300px;
+    transition:all .3s linear;
+    -webkit-transition:all .3s linear;
+    -moz-transition:all .3s linear;
+    -ms-transition:all .3s linear;
+    right:-100%;
+    height: 100%;
+    background-color: palegoldenrod;
+}
+
+.sidebar .btnClose{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border:0;
+    cursor: pointer;
+}

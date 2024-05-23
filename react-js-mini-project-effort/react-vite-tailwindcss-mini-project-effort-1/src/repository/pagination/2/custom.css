@@ -1,0 +1,19 @@
+/* CustomPagination.css */
+
+.pagination-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.page-number {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.page-number.active {
+  background-color: #007bff;
+  color: #fff;
+}

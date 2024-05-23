@@ -1,0 +1,32 @@
+/* TabbedAnimation.css */
+
+.tabbed-container {
+  width: 300px;
+  margin: auto;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tab.active {
+  background-color: #ddd;
+}
+
+.tab-content {
+  display: flex;
+  overflow: hidden;
+}
+
+.tab-pane {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}

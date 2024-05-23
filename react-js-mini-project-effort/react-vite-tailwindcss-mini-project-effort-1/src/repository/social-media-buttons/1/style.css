@@ -1,0 +1,16 @@
+.social-media-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 24px; /* Adjust the icon size */
+    margin: 0 10px; /* Adjust the spacing between icons */
+    color: #333; /* Adjust the icon color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .icon:hover {
+    color: #007bff; /* Adjust the color on hover */
+  }
+  
