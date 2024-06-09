@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomApp from './repository/contactsection/2/CustomApp';
+import CustomApp from "./components/1/app";
 import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
