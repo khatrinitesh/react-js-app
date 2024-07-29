@@ -5,3 +5,8 @@
 .active{
     background-color: red;
 }
+
+.bg-active{
+    background-color: brown;
+    color:#fff;
+}
