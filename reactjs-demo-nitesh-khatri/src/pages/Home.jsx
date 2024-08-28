@@ -8,7 +8,7 @@ const Home = () => {
         <h3 className="font-bold text-[24px] mb-5 border-b-2 border-b-white-500">Grid View</h3>
         <StudentList/>
       </div>
-    </div>
+    </div>  
   );
 }
 
