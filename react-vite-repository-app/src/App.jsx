@@ -1,6 +1,6 @@
 import React from 'react';
-import CustomApp from './repository/accordion/2/app';
 import { BrowserRouter as Router } from 'react-router-dom';
+import CustomApp from './repository/otp/1/CustomApp';
 function App() {
   return (
     <Router>
