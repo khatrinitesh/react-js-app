@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import CustomApp from './repository/otp/2/CustomApp';
+import CustomApp from './repository/slideshow/3/CustomApp';
 function App() {
   return (
     <Router>
