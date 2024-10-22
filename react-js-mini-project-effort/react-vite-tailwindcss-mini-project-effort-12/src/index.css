@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Details Block */
+.detailsBlock {
+  margin-bottom: 20px;
+}
+
+/* Navigation List Styles */
+.listBulletLine {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center align */
+}
+
+.linkLine {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #555; /* Default color */
+  background-color: #e0e0e0; /* Default background */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.linkLine.activeLine {
+  background-color: #4CAF50; /* Active background */
+  color: white; /* Active text color */
+}
+
+/* Inner Details Styles */
+.innerDetails {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Step Content Styles */
+.stepContent {
+  margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+  background-color: #007BFF; /* Button background */
+  color: white; /* Button text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px; /* Space above the button */
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker on hover */
+}
+
+button:focus {
+  outline: none; /* Remove default focus outline */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .listBulletLine {
+    flex-direction: column; /* Stack on small screens */
+  }
+
+  .linkLine {
+    width: 100%; /* Full width links */
+    text-align: center; /* Center text */
+  }
+}
