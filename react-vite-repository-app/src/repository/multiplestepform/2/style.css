@@ -1,0 +1,19 @@
+.steps {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .steps li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .steps li.active {
+    border-color: #007bff;
+    font-weight: bold;
+  }
+  
