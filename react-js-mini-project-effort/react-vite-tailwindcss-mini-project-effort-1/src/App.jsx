@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
+import CustomApp from "./repository/FramerCarousel/1/CustomApp";
 // import PureComponentExample from './components/purecomponent/1';
 // import HOCExample from './components/higherordercomponents/1';
 // import CustomApp from '../src/github/fetchapirest/1/app';
@@ -15,8 +16,7 @@ import { BrowserRouter } from "react-router-dom";
 // import CustomApp from './repository/datatable/1/app';
 // import CustomApp from "./repository/slideshow/5/app";
 // import GsapApp from "./gsap/1/App";
-// import CustomApp from "./project/project42/App";
-import CustomApp from "./components/DiffingAlgorithm/1/App";
+// import CustomApp from "./repository/FrostedGlassEffect/1/CustomApp";
 
 function AppExample() {
   return (
