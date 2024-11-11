@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    height: 100%;
+}
+
+body{
+    height: 100vh;
+}
+
+.appLayout{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.accordion-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+  }
+  .accordion-item {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+    background-color: #1F2937; /* Tailwind's bg-gray-800 */
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .accordion-content {
+    background-color: #F3F4F6; /* Tailwind's bg-gray-200 */
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+
+
+.aspect-ratio-box {
+  position: relative;
+  width: 100%;   /* Make the box width 80% of the viewport width */
+  aspect-ratio: 6 / 2; /* Aspect ratio 16:9 */
+  background-color: #f0f0f0;
+}
+
+.aspect-ratio-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Maintain aspect ratio of image inside box */
+}
+
+.nav-link {
+  position: relative;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 5px; /* Space for the border */
+}
+
+.nav-link .border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: transparent;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover .border {
+  width: 100%;
+  background-color: #f39c12; /* Change the border color on hover */
+}
+
+.nav-link.active .border {
+  width: 100%;
+  background-color: #f39c12; /* Keep the border active when the link is active */
+}
+
+.breadcrumbs-container {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.breadcrumb-item {
+  display: inline-block;
+}
+
+.breadcrumb-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  color: #0056b3;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;  /* Space between buttons */
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn.selected {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.btn:hover {
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.btn:active {
+  transform: scale(0.95); /* Shrink on click */
+}
+
+/* In your CSS file (e.g., App.css) */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.button-on-image {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-on-image:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.button-on-image:active {
+  background-color: #004085;
+  transform: scale(0.95);
+}
+
