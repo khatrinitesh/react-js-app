@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../layout/Banner";
-import CircleDotsComp from "./CircleDotsComp";
+import DropupComp from "../components/DropupComp";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
         content="Culpa velit fugiat deserunt deserunt sint laborum adipisicing dolore."
       />
       <div className="container mx-auto">
-        <CircleDotsComp />
+        <DropupComp />
       </div>
     </div>
   );
