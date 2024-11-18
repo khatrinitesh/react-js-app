@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../layout/Banner";
-import FlipAnImageComp from "../components/FlipAnImageComp";
+import GridTileComp from "./GridTileComp";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
         content="Culpa velit fugiat deserunt deserunt sint laborum adipisicing dolore."
       />
       <div className="container mx-auto">
-        <FlipAnImageComp />
+        <GridTileComp />
       </div>
     </div>
   );
