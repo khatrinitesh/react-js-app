@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../layout/Banner";
-import HowVerticallyMiddleAlignFloatingElementUnknownHeightsComp from "./HowVerticallyMiddleAlignFloatingElementUnknownHeightsComp";
+import InlineFormComp from "./InlineFormComp";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
         content="Culpa velit fugiat deserunt deserunt sint laborum adipisicing dolore."
       />
       <div className="container mx-auto">
-        <HowVerticallyMiddleAlignFloatingElementUnknownHeightsComp />
+        <InlineFormComp />
       </div>
     </div>
   );
