@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../layout/Banner";
-import ListWoBulletComp from "../components/ListWoBulletComp";
+import MenuIconHamburgerComp from "../components/MenuIconHamburgerComp";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
         content="Culpa velit fugiat deserunt deserunt sint laborum adipisicing dolore."
       />
       <div className="container mx-auto">
-        <ListWoBulletComp />
+        <MenuIconHamburgerComp />
       </div>
     </div>
   );
