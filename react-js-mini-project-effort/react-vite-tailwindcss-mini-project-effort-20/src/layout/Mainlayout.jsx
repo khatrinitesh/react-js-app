@@ -8,7 +8,7 @@ const Mainlayout = () => {
     <>
     <div className='appLayout'>
       <Header/>
-       <div className='mainContent h-[calc(100vh-128px)]'>
+       <div className='mainContent min-h-[calc(100vh-128px)]'>
             <Outlet/>
        </div>
       <Footer/>
