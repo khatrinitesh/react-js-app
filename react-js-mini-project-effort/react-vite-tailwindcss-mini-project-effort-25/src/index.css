@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+
+html,
+.bodyWrapper,.rootWrapper{
+  height:100dvh;
+  min-height: 100dvh;
+}
+
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+.appLayout{
+ @apply h-dvh grid grid-rows-[1fr_auto_1fr];
+ min-height:100dvh;
+}
