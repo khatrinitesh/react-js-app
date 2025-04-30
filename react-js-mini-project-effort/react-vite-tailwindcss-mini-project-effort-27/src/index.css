@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+html,body{
+  height:100dvh;
+  min-height:100dvh;
+}
+
+
+@utility header{
+  @apply bg-[darkblue] py-[20px];
+}
+
+@utility logoBlock{
+  @apply max-w-[50px]
+}
+
+@utility headtitle{
+  @apply text-red-500 font-bold bg-[#cf89b9] p-[20px]
+}
+
+@utility box{
+  @apply flex flex-col gap-[10px] my-[10px] border-[5px] border-[#e9e5e9] p-[10px] rounded-[10px] shadow-[1px_1px_1px_#999]
+}
+
+@utility fieldInput{
+  @apply bg-[#f9f9f9] font-bold text-[14px] border-[1px] border-[#e8e8e9] outline-none
+}
+
+@utility listItem{
+  @apply bg-[#f9f9f9] inline-flex gap-[20px]
+ 
+}
+
+.listItem li {
+  
+    @apply  bg-[#956569] font-bold text-white p-[5px] rounded-[10px]
+  
+}
+
+@utility btnPrimary{
+  @apply bg-[orange] text-gray-600 transition-all delay-300 duration-150 hover:bg-[blue] hover:text-white
+}
+
+
+
+.slider-container {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  background-color: #333;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  transition: top 1s ease-in-out;
+}
+
+.slide {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  background-color: #444;
+  margin-bottom: 5px;
+}
+
