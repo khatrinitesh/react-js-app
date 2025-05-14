@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root{
+    --bodycolor:#41a5ef;
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.bodyWrapper,.rootWrapper{
+    height: 100%;
+    min-height: 100%;
+     overflow-x: hidden;
+}
+
+.appLayout{
+    @apply h-dvh grid grid-rows-[auto_1fr_auto]
+}
+
+.container{
+    padding:0 1rem;
+}
+
+
+@utility header{
+    @apply bg-[orange]
+}
+
+@utility footer{
+    @apply bg-[darkblue]
+}
