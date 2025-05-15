@@ -1,0 +1,14 @@
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+    background-color: #3b82f6;
+  }
+  50% {
+    transform: translateY(-50px);
+    background-color: #facc15;
+  }
+  100% {
+    transform: translateY(0);
+    background-color: #10b981;
+  }
+}
